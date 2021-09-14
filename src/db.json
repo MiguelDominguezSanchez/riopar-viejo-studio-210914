@@ -1,0 +1,17 @@
+[
+  {
+      "id": 1,
+      "title": "Art Department",
+      "feed": "Drawing and Painting area devoted to figurative and abstract approach. Inspirational enclave. Beauty depicted in free virgin canvas"
+  },
+  {
+      "id": 2,
+      "title": "Design Department",
+      "feed": "Specialized in Graphic Design and User Experience && User Interface design to commit the settlement of the further development of the commission work"
+  },
+  {
+      "id": 3,
+      "title": "Development Department",
+      "feed": "The final step to complete a whole commission work is the up & running stage. A fully fledged Web API developed thoroughly with the cutting edge technologies"
+  }
+]
