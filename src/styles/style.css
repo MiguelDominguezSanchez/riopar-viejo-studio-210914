@@ -30,6 +30,12 @@ header input {
   margin: 20px 0px;
 }
 
+.department_item{
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+}
+
 
 .inconsolata {
 
