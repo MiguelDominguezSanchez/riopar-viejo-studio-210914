@@ -1,11 +1,33 @@
-@font-face {
-  font-family: Behrensschrift;
-  /* src: './font/Behrensschrift.otf'; */
-  src: url('../fonts/Behrensschrift.otf');
-  font-weight: 700;
+body {
+  margin: 0;
 }
 
-.behrensschrift {
-  /* font-family: "Behrensschrift"; */
-  /* font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; */
+header {
+  background: #03a9fa;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Inconsolata';
+  text-align: center;
+  font-size:15px;
+  margin-top: -10px;
+}
+
+.App-logo {
+  width: 50px;
+  margin-top:50px;
+
+}
+
+header input {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+
+
+.inconsolata {
+
+font-family: 'Inconsolata', monospace;
 }
