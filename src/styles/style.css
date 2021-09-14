@@ -7,6 +7,17 @@ header {
   text-align: center;
 }
 
+footer {
+  height:100px;
+  background: #03a9fa;
+  text-align: center;
+}
+
+.footer-caption {
+  color:#fff;
+  font-family: 'Inconsolata';
+}
+
 .logo {
   color: #fff;
   font-family: 'Inconsolata';

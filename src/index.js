@@ -5,18 +5,21 @@ import JSON from './db.json'
 
 import Header from './components/header'
 import DepartmentList from './components/departments_list'
+import Footer from './components/Footer'
 
 class App extends Component {
 	state = {
 		departments: JSON,
+		footerText: 'Riopar Studio',
 	}
 
 	render() {
-		console.log(this.state.departments)
+		const { departments, footerText } = this.state
 		return (
 			<>
 				<Header />
-				<DepartmentList departments={this.state.departments} />
+				<DepartmentList departments={departments} />
+				<Footer footerText={footerText} />
 			</>
 		)
 	}
