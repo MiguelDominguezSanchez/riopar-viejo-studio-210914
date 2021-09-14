@@ -2,19 +2,22 @@ import React, { Component } from 'react'
 import logo from '../img/castle.svg'
 
 class Header extends Component {
+	inputChangeHandler(event) {
+		console.log(event.target.value)
+	}
+
 	render() {
 		return (
 			<header>
 				<div>
-					<a href='#'>
+					<a href='index.html'>
 						<img src={logo} className='App-logo' alt='logo' />
+						<h1 className='logo'>
+							Riopar <br /> Studio
+						</h1>
 					</a>
-
-					<h1 className='logo'>
-						Riopar <br /> Studio
-					</h1>
 				</div>
-				<input />
+				<input onChange={this.inputChangeHandler} />
 			</header>
 		)
 	}

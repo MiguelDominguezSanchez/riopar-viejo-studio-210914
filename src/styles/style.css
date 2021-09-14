@@ -21,6 +21,10 @@ header {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 header input {
   font-size: 20px;
   margin: 20px 0px;
