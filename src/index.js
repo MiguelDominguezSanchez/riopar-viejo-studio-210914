@@ -18,7 +18,9 @@ class App extends Component {
 		return (
 			<>
 				<Header />
-				<DepartmentList departments={departments} />
+				<DepartmentList departments={departments}>
+					<h1>I am a children</h1>
+				</DepartmentList>
 				<Footer footerText={footerText} />
 			</>
 		)
