@@ -20,7 +20,6 @@ class Header extends Component {
 		console.log(this.props)
 
 		return (
-			// <header style={{ background: `${this.state.active ? 'red' : 'blue'}` }}>
 			<header className={this.state.active}>
 				<div>
 					<a href='index.html'>

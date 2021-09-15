@@ -1,9 +1,22 @@
 import React, { Component } from 'react'
 
 class Footer extends Component {
+	state = {
+		active: false,
+	}
+
+	inputChangeHandler = (event) => {
+		const value = event.target.value === '' ? false : true
+
+		this.setState({ active: value })
+	}
+
 	render() {
 		return (
-			<footer>
+			<footer
+				style={{ background: `${this.state.active ? 'red' : 'blue'}` }}
+				onClick={this.inputChangeHandler}
+			>
 				<div>
 					<div>
 						<br />
@@ -16,3 +29,5 @@ class Footer extends Component {
 }
 
 export default Footer
+
+// <header style={{ background: `${this.state.active ? 'red' : 'blue'}` }}>

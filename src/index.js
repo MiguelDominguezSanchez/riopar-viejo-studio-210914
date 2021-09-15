@@ -6,12 +6,14 @@ import JSON from './db.json'
 import Header from './components/header'
 import DepartmentList from './components/departments_list'
 import Footer from './components/Footer'
+import Life from './components/lifecycle'
 
 class App extends Component {
 	state = {
 		departments: JSON,
 		filtered: JSON,
 		footerText: 'Riopar Studio',
+		active: true,
 	}
 
 	getKeywords = (event) => {
@@ -30,9 +32,16 @@ class App extends Component {
 		return (
 			<>
 				<Header keywords={this.getKeywords} />
-				<DepartmentList departments={filtered}>
+				{/* <DepartmentList departments={filtered}>
 					<h1>I am a children</h1>
-				</DepartmentList>
+				</DepartmentList> */}
+
+				{this.state.active ? <Life /> : null}
+
+				<button onClick={() => this.setState({ active: !this.state.active })}>
+					Action
+				</button>
+
 				<Footer footerText={footerText} />
 			</>
 		)
