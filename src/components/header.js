@@ -17,6 +17,7 @@ class Header extends Component {
 
 	render() {
 		// console.log(this.state)
+		console.log(this.props)
 
 		return (
 			// <header style={{ background: `${this.state.active ? 'red' : 'blue'}` }}>
@@ -29,7 +30,7 @@ class Header extends Component {
 						</h1>
 					</a>
 				</div>
-				<input onChange={this.inputChangeHandler} />
+				<input onChange={this.props.keywords} />
 			</header>
 		)
 	}
